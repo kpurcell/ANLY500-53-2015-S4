@@ -1,52 +1,46 @@
 ---
-title: 'Analytics I: Principles and Applications'
+title: "Analytics I: Principles and Applications"
 subtitle: "ANLY 500 -- Late Fall 2015"
-
 output: pdf_document
 ---
 
-******
-**Instructor:** [Kevin Purcell, Ph.D.](http://kevin-purcell.com) 
-**Contact:** kevin@harrisburgu.edu
-**Course Format:** Section 53 Executive Format
-**Online Sessions:** Tuesday 8:00-10:00 PM ET
+## Course Info
+- **Instructor:** [Kevin Purcell, Ph.D.](http://kevin-purcell.com) 
+- **Contact:** kevin@harrisburgu.edu
+- **Course Format:** Section 53 Executive Format
+- **Online Sessions:** Tuesday 8:00-10:00 PM ET
+- **Locations:** Check lobby monitors on arrival
 
-**Campus Visits:**
-| No. | Time               | Date                        | 
-|-----+--------------------+-----------------------------|  
-|   1 | 1:00 PM-5:00 PM ET | Saturday, October  31, 2015 |
-|   2 | 1:00 PM-5:00 PM ET | Saturday, December 19, 2015 |
-|   3 | 1:00 PM-5:00 PM ET | Saturday, February 13, 2016 |
+## Campus Visits:
+- **Time:** 1:00 PM-5:00 PM ET 
+- **Dates:** October  31, 2015, December 19, 2015, February 13, 2016 
 
-**Locations:** Check lobby monitors on arrival
-
-**ANLY 500 OVERVIEW**
+## Course Overview
 The material in this course covers an overview of Data Analytics, provides a foundation in research methodology, and introduces students to the R programming language. The goal of this course is to provide an understanding and foundation of the role of Analytics in today organizational environment.
-Data Analytics is a data‐driven process that provides insight. It may report on historical information or predictions about future events. The end goal of analytics is to add value through analyses that turn data into information. This course introduces a range of methods and modern technologies that are used in analytics today.  
+Data Analytics is a data?driven process that provides insight. It may report on historical information or predictions about future events. The end goal of analytics is to add value through analyses that turn data into information. This course introduces a range of methods and modern technologies that are used in analytics today.  
 The instructional approach will include some software demos and illustrate applications of decision support technologies to problems in finance, marketing, manufacturing, services and health care management, and information systems consulting. Students have the opportunity to work on a personal project.
-The course introduces recent approaches to managerial decision analysis and support. The student will be exposed to formal methods and specific computer‐based tools.
+The course introduces recent approaches to managerial decision analysis and support. The student will be exposed to formal methods and specific computer?based tools.
 
-**ANLY 500 OBJECTIVES**
+## Course Objectives
 The main goal of this course is to provide the students with an understanding of the data analytics process and to provide a foundation of skills to become a data analytics professional. Best practices for long-term success of analytics projects in terms of project management and communications are also covered.  At the conclusion of this course, students will be able to:
-- Demonstrate an understanding of the underlying methods and technologies used in business analytics;
-- Analyze and applied alternate methods for designing, developing and implementing Business Analytics tools;
-- Evaluate the selected alternative technology to use Business Analytics tools;
-- Identify and justify opportunities for management support systems development and the specific considerations which apply in their effective management.
+Demonstrate an understanding of the underlying methods and technologies used in business analytics;
+Analyze and applied alternate methods for designing, developing and implementing Business Analytics tools;
+Evaluate the selected alternative technology to use Business Analytics tools;
+Identify and justify opportunities for management support systems development and the specific considerations which apply in their effective management.
 
 
-**Prerequisites:** Baccalaureate degree and MATH 220 and 280 (grade of B- or better).
+## Prerequisites:
+Baccalaureate degree and MATH 220 and 280 (grade of B- or better).
 
 **Corequisites:** MATH 510 or demonstrated competency in mathematics, statistics, and applied statistics at the discretion of the advisor.
 
 ## Required Texts: 
-Bhattacherjee, Anol, "Social Science Research: Principles, Methods, and Practices" (2012).Textbooks Collection.Book 3. http://scholarcommons.usf.edu/oa_textbooks/3
+- Bhattacherjee, Anol, "Social Science Research: Principles, Methods, and Practices" (2012).Textbooks Collection.Book 3. http://scholarcommons.usf.edu/oa_textbooks/3
 
-We will leverage open-source texts and open-access literature to the greatest extent possible.
-
-## Suggested Texts:
+## Recommended Texts:
+- Robert Kabacoff.  R in Action: Data analysis and graphics with R, Manning. 2015. https://www.manning.com/books/r-in-action-second-edition
 - Joseph Adler. R in a nutshell, O'Reilly. 2012, [$39 new](http://www.amazon.com/R-Nutshell-In-OReilly/dp/144931208X), ~$17 used
-- Alain F. Zuur, et al. A Beginner’s Guide to R. Use R. Springer, 2009. [ISBN: 978-0-
-387-93836-3](http://www.springer.com/us/book/9780387938363).
+
 
 ## Open-source resources:
 - Journal of Statistical Software: http://www.jstatsoft.org/ 
@@ -55,21 +49,29 @@ We will leverage open-source texts and open-access literature to the greatest ex
 - R cheat sheet: http://cran.r-project.org/doc/contrib/Baggott-refcard-v2.pdf
 - R vocabulary list: http://adv-r.had.co.nz/Vocabulary.html
 
-## Course Plan:
-1. Data analytics overview, R programming, data management/handling
-2. Data story-telling
+## Minimum Technology Requirements
+In order to have a quality learning experience in your online courses, the university requires that your primary computer (the computer used to access course materials and on which you will be required to install course specific software) meets or exceeds the following specifications:
 
-## COURSE CONDUCT & GRADING
-*Moodle* is going to be our platform for all course activities. All the activities are asynchronous, which means you can be anywhere at any time, but you need to allot the time.
-Actively participating in the asynchronous discussion forums is highly recommended as it is where basic concept of each unit are explained, assignments are discussed and your questions answered.
-Your grade for this course is derived from *three*  main activities:
-- *Discussion forums* and *short quizzes*
-- One applied term project divided into 3 deliverables throughout the semester and One final presentation, and 
-- Assignments related to leaning the R programming language.  
+- 1 GHz or better CPU 
+- 2 GB Memory (RAM) 
+- working DVD-ROM drive 
+- 100 GB Hard disk 
+- and working microphone and speakers 
 
-This is a three credit course. The standard expectation for three credit graduate classes is that you will spend an average of *9 to 12 hours per week* on your course work.
+Students are also required to meet the following general technology requirements:
 
-*NOTE:*  If you use a friend's computer ‐ be sure to change the identity information so that the work comes through YOUR account!  Work will not be accepted if it does not come from the student's Harrisburg University account.
+- *administrator rights* on their PC to install software
+- access to broadband internet
+- have a current web browser installed, such as Internet Explorer (Google Chrome can cause technical problems with Adobe Connect; have Adobe Flash plug-in installed; 
+- have Apple QuickTime plug-in installed
+- have Adobe Reader (free download) installed
+- and have Microsoft Office Suite (Word, Excel, PowerPoint) installed.
+
+## Course conduct & Grading
+**Moodle** is going to be our platform for all course activities. There are **THREE** main graded activities for this class: Discussion forums and short quizzes, One applied term project, and assignments related to leaning the R programming language. This is a three credit course. The standard expectation for three credit graduate classes is that you will spend an average of 9 to 12 hours per week on your course work.
+
+**NOTE:**  If you use a friend's computer, be sure to change the identity information so that the work comes through YOUR account!  Work will not be accepted if it does not come from the student's Harrisburg University account. 
+
 
 ### About Grading Criteria
 Grading Criteria for a Graded Item will help you understand how you will be graded. You should review the designated Grading Criteria before beginning work on a graded item so that you begin on the right track. You should also review the Grading Criteria before submitting a graded item to make sure you have fulfilled the expectations. Finally, you should review the Grading Criteria when you receive the scores in order to see in what areas you did well and in what areas you need to improve.
@@ -88,7 +90,7 @@ Grading policy will follow university standards published on page 42 of the [Uni
 ## Attendance Policy
 Attendance policy will follow university standards published on page 35 of the [University Handbook](http://harrisburgu.edu/lib/pdf/MSanalytics_program.pdf).
 It is important to realize that student performance is inversely correlated with absenteeism. ([Marburger 2010](http://www.tandfonline.com/doi/abs/10.3200/JECE.37.2.148-155#.Vem6qp3BzGd)).  Due to the nature of the executive course format there will be no grade reprocussions associated with being absent.  However, missed in-class assingments, activities, and quizzes will not be offered without a university accepted excuse.  
-  
+
 
 ## Course Schedule
 
@@ -108,36 +110,32 @@ It is important to realize that student performance is inversely correlated with
 14. Week 14: Time to event analysis
 15. Week 15: Course end, final assingments due
 
-## HU CORE COMPETENCIES
-At the conclusion of this course a student will have met the following core competencies that reflect HU's mission:
-**Critical Thinking and Problem Solving** skills are demonstrated by the student’s ability to:
-―  Identify and clarify the problem,
-―  Gather information,
-―  Evaluate the evidence,
-―  Consider alternative solutions,
-―  Choose and implement the best alternative.
 
-**Communication** 
-‐ The core communication skills are demonstrated by the student’s ability to:
-―  Express ideas and facts to others effectively in a variety of formats, particularly written, oral, and visual formats,
-―  Communicate effectively by making use of information resources and technology.
+## HU Core Competencies
+At the conclusion of this course a student will have met the following core competencies that reflect HU's mission, skills are demonstrated by the student’s ability to:
+**Critical Thinking and Problem Solving** 
+- Identify and clarify the problem,
+- Gather information,
+- Evaluate the evidence,
+- Consider alternative solutions,
+- Choose and implement the best alternative.
+
+**Communication**
+- The core communication skills are demonstrated by the student’s ability to:
+- Express ideas and facts to others effectively in a variety of formats, particularly written, oral, and visual formats,
+- Communicate effectively by making use of information resources and technology.
 
 **Teamwork and Collaboration**
-‐ The students will be working with others to increase involvement in learning and by sharing one's own ideas and responding to others' reactions to sharpen thinking and deepen understanding.
+- The students will be working with others to increase involvement in learning and by sharing one's own ideas and responding to others' reactions to sharpen thinking and deepen understanding.
+
 **Information Technology**
-‐ The students will be making effective use of the .NET information resources and technology.
+- The students will be making effective use of the .NET information resources and technology.
 
-**Competency Assessment:** One assignment in this class will also be assessed to evaluate your level of proficiency in an [HU core competency](http://www.harrisburgu.net/academics/core‐competencies.php) directly connected to that assignment.  This competency assessment will not impact your grade in this course, but can be used as a gauge for you to self‐evaluate your progress in developing your skill level in specified core competencies attached to the assignment. 
+**Competency Assessment:**
+- One assignment in this class will also be assessed to evaluate your level of proficiency in an HU core competency (http://www.harrisburgu.net/academics/core?competencies.php ) directly connected to that assignment.  This competency assessment will not impact your grade in this course, but can be used as a gauge for you to self?evaluate your progress in developing your skill level in specified core competencies attached to the assignment. 
 
-## STATEMENT ON ACADEMIC INTEGRITY
+## Statement on Academic Integrity
 According to the University's Student Handbook: Academic integrity is the pursuit of scholarly activity free from fraud and deception, and is the educational objective of this institution.  Academic dishonesty includes, but is not limited to cheating, plagiarism, fabrication of information or citations, facilitating acts of academic dishonesty by others, unauthorized possession of examinations, submitting work of another person, or work previously used without informing the instructor, or tampering with the academic work of other students.  Any violation of academic integrity will be thoroughly investigated, and where warranted, punitive action will be taken. Students should be aware that standards for documentation and intellectual contribution may depend on the course content and method of teaching, and should consult the instructor for guidance in this area.
-Honor Code ‐ We as members of Harrisburg University community pledge not to cheat, plagiarize, steal, or lie in matters related to academic work.  As a Community of Learners, we honor and uphold the HU Honor Code.
-
-
-
-
-
-
-
+Honor Code ? We as members of Harrisburg University community pledge not to cheat, plagiarize, steal, or lie in matters related to academic work.  As a Community of Learners, we honor and uphold the HU Honor Code.
 
 
