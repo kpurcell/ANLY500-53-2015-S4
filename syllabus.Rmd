@@ -18,8 +18,9 @@ output: pdf_document
 ## Course Overview
 The material in this course covers an overview of Data Analytics, provides a foundation in research methodology, and introduces students to the R programming language. The goal of this course is to provide an understanding and foundation of the role of Analytics in today organizational environment.
 Data Analytics is a data?driven process that provides insight. It may report on historical information or predictions about future events. The end goal of analytics is to add value through analyses that turn data into information. This course introduces a range of methods and modern technologies that are used in analytics today.  
+
 The instructional approach will include some software demos and illustrate applications of decision support technologies to problems in finance, marketing, manufacturing, services and health care management, and information systems consulting. Students have the opportunity to work on a personal project.
-The course introduces recent approaches to managerial decision analysis and support. The student will be exposed to formal methods and specific computer?based tools.
+The course introduces recent approaches to managerial decision analysis and support. The student will be exposed to formal methods and specific computer-based tools.
 
 ## Course Objectives
 The main goal of this course is to provide the students with an understanding of the data analytics process and to provide a foundation of skills to become a data analytics professional. Best practices for long-term success of analytics projects in terms of project management and communications are also covered.  At the conclusion of this course, students will be able to:
@@ -78,13 +79,14 @@ Grading Criteria for a Graded Item will help you understand how you will be grad
 
 ### Grading Criteria
 Your final grade will be composed of the following:
+
 - Discussion forums or quizzes 30%
 - Assignments related to R programming instruction. 30%
 - Term project stages, and presentation 40%
 
 All activities will be assigned **individually** unless mentioned in the assignment.
 
-## Grading
+### Grading
 Grading policy will follow university standards published on page 42 of the [University Handbook](http://harrisburgu.edu/lib/pdf/MSanalytics_program.pdf).
 
 ## Attendance Policy
@@ -136,6 +138,6 @@ At the conclusion of this course a student will have met the following core comp
 
 ## Statement on Academic Integrity
 According to the University's Student Handbook: Academic integrity is the pursuit of scholarly activity free from fraud and deception, and is the educational objective of this institution.  Academic dishonesty includes, but is not limited to cheating, plagiarism, fabrication of information or citations, facilitating acts of academic dishonesty by others, unauthorized possession of examinations, submitting work of another person, or work previously used without informing the instructor, or tampering with the academic work of other students.  Any violation of academic integrity will be thoroughly investigated, and where warranted, punitive action will be taken. Students should be aware that standards for documentation and intellectual contribution may depend on the course content and method of teaching, and should consult the instructor for guidance in this area.
-Honor Code ? We as members of Harrisburg University community pledge not to cheat, plagiarize, steal, or lie in matters related to academic work.  As a Community of Learners, we honor and uphold the HU Honor Code.
+Honor Code.  We as members of Harrisburg University community pledge not to cheat, plagiarize, steal, or lie in matters related to academic work.  As a Community of Learners, we honor and uphold the HU Honor Code.
 
 
