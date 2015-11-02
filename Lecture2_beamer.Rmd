@@ -6,7 +6,7 @@ output:
    revealjs::revealjs_presentation:
         fig_width: 5
         fig_height: 4
-        theme: sky
+        theme: serif
         center: true
         self_contained: true
         highlights: kate
@@ -49,6 +49,9 @@ output:
 
 
 # Analytics Toolbox
+```{r, echo=FALSE}
+library(DiagrammeR)
+```
 
 ---
 
@@ -100,7 +103,7 @@ pie(slices, labels = lbls, main="What is 'Munging'")
 - A large community contributing to the code base and extending capabilities.
 
 
-# A Deepe `R` dive
+# Getting sta`R`ted
 
 ---
 
@@ -131,28 +134,78 @@ X + Y
 ```
 
 
-
 ## Interactive computation
 
 - a faster developmental model for analytical operations
 - common paradigm in scientific programming
-- Optional: [Semantics of interactive computation](http://ceur-ws.org/Vol-332/paper4.pdf)
+- Optional reading: [Semantics of interactive computation](http://ceur-ws.org/Vol-332/paper4.pdf)
 
 ![cpuWorks](http://www.learningliftoff.com/wp-content/uploads/2014/09/Prog.png)
 
 
-## Scientific computing
-- core difference is the sequence of input & output cycles
+## Scientific computing vs Batch computing
+- core difference is the sequence of *input* & *output* cycles
 - traditional (batch) development: 
-`INPUT -> COMPUTE -> OUTPUT`
-- Scientific computing development: 
-`INPUT -> VIEW -> OUTPUT -> SORT -> OUTPUT etc.`
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+DiagrammeR("
+  graph LR;
+    A[INPUT]-- Compute -->A2[OUTPUT];
+")
+```
+
+
+## Scientific computing
+- In scientific computing interativity is not as much about [*agile*](https://en.wikipedia.org/wiki/Agile_software_development) development as it is about iterative and thoughtful *analysis*.
 - **Reading**: Wilson et al. 2014. “Best Practices for Scientific Computing.” PLoS Biology 12 (1): e1001745. [doi:10.1371/journal.pbio.1001745](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745).
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.align='center', fig.height=5, fig.width=7}
+DiagrammeR("
+  graph LR;
+    INPUT--> View 
+    View --> OUTPUT
+    OUTPUT --> Sort 
+    Sort --> OUTPUT2;
+")
+```
+
+
+
+
+
+## 
+![rpopular](https://r4stats.files.wordpress.com/2012/04/redmonk-2015-q3.png?w=1244)
+
+
 
 ## Who to thank for `R`
 ```{r}
 citation()
 ```
+
+
+## Working Directory
+- A *working directory* is the [directory](https://en.wikipedia.org/wiki/Working_directory) in which your current `R` process is located within the operational [filesystem](https://en.wikipedia.org/wiki/File_system).
+- You can determine your current working directory
+```{r}
+getwd() # returns the current working directory 
+```
+- The `setwd()` function allows you to specify a location
+```{r}
+setwd("~/Desktop")
+getwd()
+```
+
+
+## Workspace
+- This should not be confused with your `R` *workspace* which is the set of data, functions, and activities that have been conducted during a programming session and which can be save in an `.Rdata` file.
+- If you save an `.Rdata` file using `save.image()` function you can return to your working state, similar to walking away from your desk and coming back many hours later.
+```
+load("MyWorkspace.Rdata")  # loads a previous or save workspace
+ls()                       # lists all objects in that workspace
+```
+- Rstudio provides this info in the *Workspace* tab
+
 
 
 ## Expressions
@@ -219,15 +272,11 @@ x
 
 ## Indexing Vectors
 
-- often we need data values from *vectors*
-
 ```{r}
-v <- rnorm(10, mean=290, sd=2)
-v
+v <- rnorm(10, mean=290, sd=2); v
 v[5]
 # Do it again
-v2 <- rnorm(10, mean=290, sd=2)
-v2
+v2 <- rnorm(10, mean=290, sd=2);v2
 v2[5]
 ```
 
