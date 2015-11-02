@@ -321,7 +321,7 @@ xbar
 sqrt(sum((weight - xbar)^2)/(length(weight)-1))
 ```
 
-- `R` actually has already has these operations using `mean()` and `sd()`
+## `R` actually has already has these operations using `mean()` and `sd()`
 
 ```{r, echo=TRUE}
 mean(weight)
