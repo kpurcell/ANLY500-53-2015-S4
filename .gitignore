@@ -14,7 +14,10 @@ vignettes/*.pdf
 .Rproj.user
 
 # dat file
-*-.Rdata
+*.Rdata
 
 # PDF files
-*-.pdf
+*.pdf
+
+# HTML files
+*.html
