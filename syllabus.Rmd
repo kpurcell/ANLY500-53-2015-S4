@@ -8,7 +8,7 @@ output: pdf_document
 - **Instructor:** [Kevin Purcell, Ph.D.](http://kevin-purcell.com) 
 - **Contact:** kevin@harrisburgu.edu
 - **Course Format:** Section 53 Executive Format
-- **Online Sessions:** Tuesday 8:00-10:00 PM ET
+- **Online Sessions:** Tuesday 7:00-9:00 PM ET
 - **Locations:** Check lobby monitors on arrival
 
 ## Campus Visits:
