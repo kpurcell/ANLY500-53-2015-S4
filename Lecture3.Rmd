@@ -1,0 +1,242 @@
+---
+title: "Lecture 3 - Methods and Process"
+author: "KM Purcell"
+date: "September 30, 2015"
+output: 
+  revealjs::revealjs_presentation:
+     theme: serif
+     center: true
+     self_contained: true
+     highlight: default
+     footer: "Copyright (c) 2015, WildFig"
+---
+
+
+## This week
+
+- First R assignment
+- Methods Text Ch. 1 & 2
+- Wilson et al. 2014
+
+
+
+# Science & Research
+
+---
+
+
+## What is science?
+
+- big question, lots of answers
+- defined according to Bhattacherjee as:
+1. contributes to body of science
+2. follows scientific method
+- assuming a familiarity w/scientific method if not [review](https://en.wikipedia.org/wiki/Scientific_method)
+
+## Types of Science
+
+- The word **Science** derives from the Latin *scientia* meaning knowledge
+- Knowledge is diverse -> so is science
+- Differences between natural sciences and social sciences?
+
+## Natural vs. Social sciences
+
+- natural sciences tend to be precise, accurate, deterministic
+- social sciences tend to lack precision, are less deterministic and more ambiguous.
+- **This has implications on analysis**
+
+## Basic vs Applied
+
+- Basic sciences (pure sciences) explain essential physical, chemical, and biological forces.
+- Applied sciences study applications of the laws, theories, and results of the basic sciences.
+- Overly, simplistic dichotomy!
+
+
+## [Pasteur's quadrant](https://en.wikipedia.org/wiki/Pasteur%27s_quadrant)
+
+![quadrant](http://timkastelle.org/wp-content/uploads/2013/05/pasteurs-quadrant.jpg)
+
+
+## Operational Goal of Science
+
+- discover laws
+- postulate theories
+- explain natural and social phenomena
+- expand scientific knowledge
+
+## 
+
+> "Somtimes there may not be a single universal truth, but rather an equilibrium of  "multiple truths"". 
+
+## The equilibrium of "multiple truths"
+
+- This is an esoteric concept
+- There is a continuum of knowledge in science.  
+- Theories are being created and destroyed, improved and dispelled.
+- Therefore the progress of science is defined by a progression of improvement marked by experimentation and logical reasoning.
+- What does this mean in analytics/data science: all work is **cyclical**
+
+## Inductive vs Deductive research
+
+- **Inductive** - goal of inferring theory from observed data
+- **Deductive** - goal of testing theory using experimental data
+- Difference is *theory-building*(inductive) & *theory-testing*(deductive)
+- In reality they are quite often mixed
+- Often difference manifest in **methodology** (ie. theory building = Data mining; theory-testing = hypothesis testing)
+
+## Experience is the teacher
+
+- The cycle of research (Fig 1.1, pg 4) is essential to the progression of science
+- Both *theory-building* and *theory-testing* are crucial to advancement
+- Example: Karl Marx's theory of communism
+
+## Scientific Method (SM)
+
+- A standardized method or sequence of steps for building and acquiring scientific knowledge. 
+
+##
+
+![scimet](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/The_Scientific_Method_as_an_Ongoing_Process.svg/850px-The_Scientific_Method_as_an_Ongoing_Process.svg.png)
+
+
+## Characteristics of SM
+
+- Replicability - Experiment & Results should be able to be independently replicated
+- Precision - theory must be defined sufficiently that others can apply those definitions for verification. 
+- Falsifiability - theories must be defined so that they can be dis-proven
+- Parsimony - simplest or logically most economical explanation
+
+## Types of research
+
+- Exploratory - define scope, magnitude, feasibility
+- Descriptive - document phenomena of interest
+- Explanatory - explain observed phenomena of interest
+- Interesting corollary with analytics: Descriptive, Diagnostic, Predictive, Prescriptive
+
+
+## History of Scientific Though
+
+- Very high-level review
+- 3^rd^ century BC, **rationalism** suggested that the natural world must be understood through logical reasoning.
+- 16^th^ century, *Francis Bacon* suggested that the world in studied via empirical observation, hence **empiricism**
+- 18^th^ century, *Critique of Pure Reason* (Immanual Kant) attempted to resolve the debate b/w **rationalism** and **empiricism**.
+- 20^th^ century, *Karl Popper* suggested that the world is built on a tenuous set of conjectures that **can not** be proven only disproven. Philosophically this is referred to as **postpositivism**.
+
+
+# Research Thinking
+
+---
+
+## Unit of Analysis
+
+- **Unit of Analysis** refers to the target of the study
+- Could be individuals, groups, business, regions, states, etc.
+- Can be complex to define..
+- Crime rate in a region.  Unit of analysis is the **region** not the crimes or criminals.
+- Crimes would be a variable in the analysis of a region
+- Early in a project take time to define and scope
+
+## From Units to methods
+
+- The unit of analysis defines the type of data that must be collected
+- Related to **unit of replication** a more common term in statistics
+
+## Construct
+
+- a construct is an abstract idea that created to explain a phenoena
+- **constructs** can be simple (unidimensional) or complex (multi-dimensional)
+
+
+## Operational definition
+
+- a manner of defining constructs in terms of how they will be empirically measured.
+- Example: income must be defined  as before or after-tax, annual or monthly, family of individuals
+
+## Variables
+
+- a measurable representation of an abstract construct
+- Example: intelligence is measured in Intelligence quotient (IQ)
+
+## Type of variables
+
+- independent variables - variables that explain other variables
+- dependent variables - those variables explained by independent variables
+- mediating variables - variables explained by independent variables while also explaining dependent variables
+- moderating variables - variables that influence the relationshop b/w independent and dependent variables
+- control variales - unimportant but effect the dependent so much be controlled during exp.
+
+
+# Best Practices in Scientific Computing
+
+---
+
+## Best Practices
+
+- are a set of activities that are accepted by the professional community as "best in class"
+- This paper details a set of practices that are proven effective based on their decades of shared experience
+
+## Write programs for people
+
+- Traditional thought is that programs are for computers
+- a program should not require a reader to hold a lots of information in their head.
+- Names should be consistent, distinct, and meaningful
+- code style matters
+
+## Let computers do the work
+
+- automate repitive tasks
+- Save recent commands in a file for re-use
+- Automate workflows
+
+## Incrimental change
+
+- small steps, "fail quickly"
+- Use version control system (Git, Subversion)
+- Version control all manual steps (code not outputs)
+
+## Limit repetition
+
+- Data must have a single representitive
+- modularize code (no cut and paste)
+- Re-use code do not re-write code
+
+## Plan for mistakes
+
+- add tests to programs to verify your code
+- Use unit-testing (a bit off but good to know)
+- Use bugs to test code
+- use a debugger
+
+## Optimize after the code works
+
+- use a code profiler
+- write code at the highest level possible
+
+## Document design and purpose, not mechanics
+
+- document why you did something, not what you did
+- keep code as simple as possible to not require explanation
+- use comments in the code - *literate programming*
+
+## Collaborate
+
+- use established code (packages)
+- paired programming - mainly for practice not class!
+- use issue tracking (implemented in github etc.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
