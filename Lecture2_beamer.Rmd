@@ -20,8 +20,8 @@ output:
 
 ## Last class
 
-- Built-in functions
-- Assingment operator `<-`
+- Class overview
+- Simple R examples
 - object naming conventions
 - vectors
 - basic arithmatic operations
@@ -147,7 +147,7 @@ X + Y
 - core difference is the sequence of *input* & *output* cycles
 - traditional (batch) development: 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
-
+library(DiagrammeR)
 DiagrammeR("
   graph LR;
     A[INPUT]-- Compute -->A2[OUTPUT];
@@ -160,6 +160,7 @@ DiagrammeR("
 - **Reading**: Wilson et al. 2014. “Best Practices for Scientific Computing.” PLoS Biology 12 (1): e1001745. [doi:10.1371/journal.pbio.1001745](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745).
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.align='center', fig.height=5, fig.width=7}
+library(DiagrammeR)
 DiagrammeR("
   graph LR;
     INPUT--> View 
@@ -200,12 +201,21 @@ getwd()
 ## Workspace
 - This should not be confused with your `R` *workspace* which is the set of data, functions, and activities that have been conducted during a programming session and which can be save in an `.Rdata` file.
 - If you save an `.Rdata` file using `save.image()` function you can return to your working state, similar to walking away from your desk and coming back many hours later.
+
 ```
+save.image(file="~/Desktop/workspace.Rdata")
+save(x, file="~/Desktop/important.Rdata")  # For saving an object to an rdata file
 load("MyWorkspace.Rdata")  # loads a previous or save workspace
 ls()                       # lists all objects in that workspace
-```
-- Rstudio provides this info in the *Workspace* tab
 
+```
+
+## Assingment operator
+- in `R` most actions are executed *expressions*
+- often *expressions* assign a value to an *object*
+- `R` uses the <-- symbol to assign values to *objects*
+- `R` will accept the = sign for assignment as well
+- Most style guides suggest using the <--
 
 
 ## Expressions
@@ -258,6 +268,12 @@ ds <- data.frame(Dimension, Homogeneous, Heterogeneous)
 ds
 ```           
  
+## Data structure
+```{r, echo=TRUE, warning=FALSE, message=FALSE, results="asis"}
+library(stargazer)
+stargazer(ds, summary=FALSE,type="html")
+```
+
 ## Vectors
  
 - we introduced vectors last class
