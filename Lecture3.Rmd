@@ -1,7 +1,7 @@
 ---
 title: "Lecture 3 - Methods and Process"
 author: "KM Purcell"
-date: "September 30, 2015"
+date: "November 17, 2015"
 output: 
   revealjs::revealjs_presentation:
      theme: serif
@@ -10,6 +10,13 @@ output:
      highlight: default
      footer: "Copyright (c) 2015, WildFig"
 ---
+
+## Last week
+- interacting with `R`
+- Interactive vs Batch execution
+- class objectes
+- expression syntax
+- data I/O
 
 
 ## This week
@@ -145,6 +152,9 @@ output:
 
 - a construct is an abstract idea that created to explain a phenoena
 - **constructs** can be simple (unidimensional) or complex (multi-dimensional)
+- simple/unidimensional construct = *weight*
+- complex/multi-dimensional construct = *communication skill*
+- 
 
 
 ## Operational definition
@@ -159,11 +169,11 @@ output:
 
 ## Type of variables
 
-- independent variables - variables that explain other variables
-- dependent variables - those variables explained by independent variables
-- mediating variables - variables explained by independent variables while also explaining dependent variables
-- moderating variables - variables that influence the relationshop b/w independent and dependent variables
-- control variales - unimportant but effect the dependent so much be controlled during exp.
+- **independent variables** - variables that explain other variables
+- **dependent variables** - those variables explained by independent variables
+- **mediating variables** - variables explained by independent variables while also explaining dependent variables
+- **moderating variables** - variables that influence the relationshop b/w independent and dependent variables
+- **control variales** - unimportant but effect the dependent so much be controlled during exp.
 
 
 # Best Practices in Scientific Computing
@@ -199,12 +209,13 @@ output:
 - Data must have a single representitive
 - modularize code (no cut and paste)
 - Re-use code do not re-write code
+- **My $0.02**: revise code
 
 ## Plan for mistakes
 
 - add tests to programs to verify your code
 - Use unit-testing (a bit off but good to know)
-- Use bugs to test code
+- Use bugs to test code - *more pretinent to production code*
 - use a debugger
 
 ## Optimize after the code works
