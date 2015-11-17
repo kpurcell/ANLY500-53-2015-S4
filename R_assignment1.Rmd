@@ -1,0 +1,94 @@
+---
+title: 'ANLY 500: Assignment I'
+author: "Student Name"
+date: "Date"
+output: word_document
+---
+
+## Rmarkdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com> and be sure to download the **Rmarkdown Cheatsheet** which I uploaded to Moodle.  A more detailed reference guide to Rmarkdown can be obtained [here](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+
+Rmarkdown is run on a package called `knitr()`.  `knitr()` is a powerful tool for creating reports and summaries of your quantiative research, and it is an important part of a **reproducible research** toolbox.  The `Knitr` package was developed by [Yihui Xie](http://yihui.name/knitr/) a statistics Ph.D. who now works at Rstudio.  We will discuss the subject of **reproducible research** in greater depth in two weeks.  But for now we are simpling going to get comfortable with the primary reproducible research tool for `R` which is the `knitr` package.  
+
+Since many of you are using **Rstudio** you will benefit from the tight integration which the Rstudio interface has with the `knitr` package.  For instance in the toolbar above the text editor quadrant of the Rstudio interface you will see a "Knit" button.  That essentially executes `knitr` package commands in the background allowing the user to create reports and package output without having to execute commands in the `R` console. A great resource for more details on the `knitr` package is [knitr in a knutshell](http://kbroman.org/knitr_knutshell/) by [Karl Browman](http://kbroman.org/), or for a longer exposition you could read
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE, fig.width=4, fig.height=3}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+## Objective
+
+The objective of this assignmenet is two-fold.  First, I want you to familiarize yourselves with the syntax and mechanics of Rmarkdown and the steps that are required to produce both an `.rmd` file and the knitted output files.  Secondly, this will be the first of our R programming assingments which are meant to expand your experience working with the packages and functions that are introducted in lectures.  
+
+## Directions
+
+Below is a document with a number of questions focused on either `R` information or on `R` code.  To complete these questions create **code chunks** that provide a response to code based questions.  Full completion of this assignment requies the submission of a completed `.rmd' file and a word document created using knitr that displays my text and your responses.  
+
+
+## Questions
+
+1.) Write a code chunk that produces a pie chart showing the proportion of time you spent reading class materials versus experimenting with R code since this class began.
+
+
+
+2.) Write a code chunk that randomly generates two vectors (A,B) from a normal distribution both of which consist of 5000 random data points, with a mean = 400 and a standard deviation = 50.  Now verify these two vectors are identical by calculating the median of both.  
+
+**Delete this and put your code chunk here**
+
+3.) Write a code chunk that produces two vectors (A, B) both of which consist of 10 values.  The A vector should number 1 to 10 while B vector is 10 to 1.
+
+**Delete this and put your code chunk here**
+
+
+4.) Combine the vectors from the previous question into a matrix (T). Now transpose that matrix into a new object (t).  
+
+**Delete this and put your code chunk here**
+
+
+5.) Why are **lists** such a powerful data structure in `R`?
+
+**Delete this and put your answer here**
+
+
+6.) Create a list object (L) which highlights the  utility of these data structures when working with data of different classes.  Now use a function call to show the structure of object (L).
+
+**Delete this and put your code chunk here**
+
+
+7.) Write a code chunk that converts your object (L) into a recursive object (M).
+
+**Delete this and put your code chunk here**
+
+
+8.) Write a code chunk that imports the mtcars.csv data set that I distributed before last weeks class into an object (dat).  Use a function to display the top 6 values of the imported data.  
+
+**Delete this and put your code chunk here**
+
+
+9.) Using either the imported object (dat) or the version of mtcars data that is readily available in `R`, write a code chunk that displays the data mile per gallon (mpg) data for the mtcars data set.  
+
+**Delete this and put your code chunk here**
+
+
+10.) Write a code chunk that creates two vectors (mpg, hp).  These new vectors should be populated from the mpg, and hp columns of the mtcars database.  Now create a new data frame (dat2) using the `data.frame()` function which is a combination of the new vectors mpg and hp.  Finally,  produce a summary of that data frame.
+
+
+**Delete this and put your code chunk here**
+
+
+
+
+
+
